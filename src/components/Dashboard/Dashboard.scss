@@ -1,0 +1,30 @@
+.dashboard {
+  display: grid;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.table_data {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  
+}
+
+table {
+  border: 2px solid rgb(0, 0, 0);
+  width: 800px;
+  height: 200px;
+  border-collapse: collapse;
+  th {
+    border: 1px solid black;
+    background-color:#468faf;
+  }
+
+  td {
+    text-align: center;
+    border: 1px solid black;
+  }
+}
